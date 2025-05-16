@@ -1,0 +1,123 @@
+.hero-image {
+  height: auto;
+  max-width: 450px;
+  /* min-width: 300px; */
+  border-radius: 10rem;
+  margin-left: 15rem;
+  transform: rotate(15deg);
+}
+
+.hero-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  flex-wrap: wrap;
+  z-index: 2;
+}
+
+.hero-wrapper p {
+  font-size: 3.5rem;
+  font-weight: 100;
+}
+
+.left-content-container {
+  max-width: 500px;
+}
+
+.web-page-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.web-page-container {
+  width: 550px;
+  height: 350px;
+  box-shadow: 0 0 10px black;
+  border-radius: 1rem;
+  z-index: 1;
+  margin-left: -50px;
+  transition: transform 0.3s ease;
+}
+
+.web-page-container:hover {
+  transform: scale(2)
+}
+
+.web-page-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 25px;
+  background-color: gray;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  position: relative;
+  z-index: 1;
+  gap: .4rem;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.orange {
+  margin-left: .5rem;
+  background-color: #FF5F56;
+}
+
+.yellow {
+  background-color: #FFBD2E;
+}
+
+.green {
+  background-color: #27C93F;
+}
+
+.presentation-site-img {
+  width: 550px;
+  height: 325px;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  position: absolute;
+}
+
+.take-me-to-website-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 210px;
+  left: 20px;
+  width: 150px;
+}
+
+.check-website-paragraph {
+  font-size: .5rem;
+  color: red;
+}
+
+.presentation-site-anchor {
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #CD1818;
+  text-align: center;
+  padding: .4rem 0;
+  color: #ffffff;
+  margin-top: .5rem;
+  width: 100px;
+  transition: background-color 0.3s ease;
+}
+
+.presentation-site-anchor:hover {
+  background-color: #FF5F56;
+}
+
+.take-me-to-paragraph {
+  font-weight: 300;
+  font-size: .9rem;
+  color: inherit;
+}

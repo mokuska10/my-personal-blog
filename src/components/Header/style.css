@@ -1,0 +1,121 @@
+.wrapper {
+  margin: 1rem 15rem 12rem 15rem;
+}
+
+.container {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.logo-img {
+  height: auto;
+  width: 150px;
+}
+
+ul {
+  position: relative;
+  display: flex;
+  gap: 2rem;
+  padding-bottom: 4px; /* space for the line */
+}
+
+ul li {
+  list-style: none;
+  position: relative;
+}
+
+ul a {
+  position: relative;
+  text-decoration: none;
+  color: black;
+  padding: 0.5rem 0;
+  display: inline-block;
+  transition: color 0.3s;
+}
+
+span {
+  margin-left: .2rem;
+  /* font-size: 4rem; */
+  font-weight: 900;
+  color: #CD1818;
+}
+
+ul a:hover {
+  /* color: #CD1818; */
+}
+
+ul .line {
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  background-color: #CD1818; 
+  width: 0;
+  left: 0;
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+ul li:nth-child(1):hover ~ .line {
+  left: 8%;
+  width: 100px;
+}
+
+ul li:nth-child(2):hover ~ .line {
+  left: 190px;
+  width: 140px;
+}
+
+ul li:nth-child(3):hover ~ .line {
+  left: 340px;
+  width: 180px;
+}
+
+ul li:nth-child(4):hover ~ .line {
+  left: 540px;
+  width: 120px;
+}
+
+button {
+	position: relative;
+	font: inherit;
+	background-color: #FFFFFF;
+	border: 0;
+	color: #242424;
+	border-radius: 0.5em;
+	font-size: 1.5rem;
+	padding: .4rem .5em;
+	font-weight: 400;
+	text-shadow: 0 0.0625em 0 #fff;
+	box-shadow: inset 0 0.0625em 0 0 #f4f4f4, 0 0.0625em 0 0 #efefef,
+		0 0.125em 0 0 #ececec, 0 0.25em 0 0 #e0e0e0, 0 0.3125em 0 0 #dedede,
+		0 0.375em 0 0 #dcdcdc, 0 0.425em 0 0 #cacaca, 0 0.425em 0.5em 0 #cecece;
+	transition: 0.25s ease;
+	touch-action: manipulation;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	cursor: pointer;
+
+	&:active,
+	&:hover {
+		transform: translateY(0.225em);
+		box-shadow: inset 0 0.03em 0 0 #f4f4f4, 0 0.03em 0 0 #efefef,
+			0 0.0625em 0 0 #ececec, 0 0.125em 0 0 #e0e0e0, 0 0.125em 0 0 #dedede,
+			0 0.2em 0 0 #dcdcdc, 0 0.225em 0 0 #cacaca, 0 0.225em 0.375em 0 #cecece;
+
+		&:after {
+			height: calc(100% + 0.225em);
+		}
+	}
+
+	&:after {
+		position: absolute;
+		content: "";
+		display: block;
+		width: 100%;
+		height: calc(100% + 0.375em);
+		top: 0;
+		left: 0;
+		background-color: transparent;
+		transition: height 0.25s ease;
+	}
+}
