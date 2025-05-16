@@ -76,7 +76,7 @@ ul li:nth-child(4):hover ~ .line {
   width: 120px;
 }
 
-button {
+.new-account-button {
 	position: relative;
 	font: inherit;
 	background-color: #FFFFFF;
