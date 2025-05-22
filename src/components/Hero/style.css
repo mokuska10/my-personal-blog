@@ -12,9 +12,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
   flex-wrap: wrap;
   z-index: 2;
+  margin-bottom: 15rem;
 }
 
 .hero-wrapper p {
@@ -41,8 +41,12 @@
   transition: transform 0.3s ease;
 }
 
-.web-page-container:hover {
-  transform: scale(2)
+.web-page-container-wrapper {
+  transition: transform 0.4s ease, margin-left 0.4s ease;
+}
+
+.web-page-container-wrapper:hover {
+  transform: scale(1.6) translateX(-350px);
 }
 
 .web-page-header {
