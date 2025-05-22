@@ -1,0 +1,124 @@
+.footer-wrapper {
+  position: relative;
+  background-color:#DDE3F0;
+  color: #1A1A1A;
+  height: 250px; 
+  min-height: fit-content;
+  margin-top: 10rem; 
+}
+
+.footer-subscribe-container {
+  position: absolute;
+  top: -8%;
+  left: 50%;
+  transform: translateX(-50%); 
+  max-width: 800px;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  border-radius: .5rem;
+  background-color: #C8D1E0;
+  position: relative;
+  color: #1A1A1A;
+}
+
+.footer-subscribe-container label {
+  color: #1A1A1A;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.subscription-content input {
+  border: none;
+  width: 300px;
+  padding: .55rem .5rem;
+  margin-right: 1rem;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.footer-btn {
+  width: 100px;
+  padding: .5rem 0;
+  background-color: #CD1818;
+  border: none;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.footer-btn:hover {
+  background-color: #FF5F56;
+}
+
+.footer-logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid white;
+  padding-bottom: 2rem;
+  padding: 0 7rem 3rem 7rem;
+}
+
+.flex-container p {
+  font-size: 2rem;
+  margin-left: 1.5rem;
+  font-weight: 100;
+}
+
+.footer-logo {
+  /* height: 200px; */
+  width: 200px;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+}
+
+.sm-icon {
+  width: 500px;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-list-border {
+  font-weight: 400;
+  display: inline-block;
+  width: 50px;
+  border-bottom: 2px solid white;
+  padding-bottom: 1rem;
+}
+
+.footer-list a {
+  text-decoration: none;
+  color: inherit;
+  margin-bottom: .2rem;
+}
+
+.footer-list p {
+  margin: 0 0 1rem 0;
+  font-size: 0.8rem;
+  color:#838282;
+}
+
+.border-span {
+  border-bottom: 2px solid #CD1818;
+  width: 50px;
+  margin-bottom: 1.5rem;
+}
+
+.footer-copyright {
+  text-align: center;
+  font-weight: 300;
+  padding: .5rem 0;
+}
