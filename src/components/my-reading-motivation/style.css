@@ -1,0 +1,41 @@
+.wrapper-ownThougtsPage {
+  margin: 0 12rem 5rem 12rem;
+}
+
+.header-content-ownThougtsPage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.discussion-img-ownThougtsPage {
+  height: auto;
+  width: 600px;
+  border-radius: .5rem;
+  margin-left: 10rem;
+}
+
+.left-content-ownThougtsPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 700px;
+
+}
+
+.left-content-ownThougtsPage p {
+  margin: 0;
+}
+
+.left-content-ownThougtsPage p:nth-of-type(1) {
+  font-size: 2.5rem;
+  font-weight: 100;
+}
+
+.left-content-ownThougtsPage p:nth-of-type(2) {
+  border-bottom: 1px solid;
+  padding-bottom: 1rem;
+  border-image: linear-gradient(to right, gray, white) 1;
+}

@@ -1,23 +1,30 @@
 import "./style.css";
-import Logo from "../../assets/mdidev-high-resolution-logo-transparent-svg.png";
+import Logo from "../../assets/mdidev-high-resolution-logo-transparent-png-last.png";
+
+import { Link } from "react-router-dom";
 
 export default function Header() {
     return (
         <div className="wrapper">
             <div className="container">
-                <img src={Logo} className="logo-img" />
+                <Link to="/">
+                    <img 
+                        src={Logo} 
+                        className="logo-img"
+                    />
+                </Link>
                 <ul>
                     <li>
-                        <a href="#">ganduri Proprii<span>.</span></a>
+                        <Link to="/ganduri">ganduri Proprii<span>.</span></Link>
                     </li>
                     <li>
-                        <a href="#">despre Politica<span>.</span></a>
+                        <Link to="#">despre Politica<span>.</span></Link>
                     </li>
                     <li>
-                        <a href="#">despre Programare<span>.</span></a>
+                        <Link to="#">despre Programare<span>.</span></Link>
                     </li>
                     <li>
-                        <a href="#">despre Carti<span>.</span></a>
+                        <Link to="#">despre Carti<span>.</span></Link>
                     </li>
                     <span className="line"></span>
                 </ul>
