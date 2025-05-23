@@ -1,10 +1,13 @@
 .wrapper {
-  margin: 1rem 15rem 12rem 15rem;
+  margin-bottom: 15rem;
 }
 
 .container {
+  /* position: fixed; */
+  /* width: 100%; */
   display: flex;
   justify-content:space-between;
+  margin: 2rem 15rem;
   align-items: center;
 }
 
@@ -17,7 +20,7 @@ ul {
   position: relative;
   display: flex;
   gap: 2rem;
-  padding-bottom: 4px; /* space for the line */
+  padding-bottom: 4px;
 }
 
 ul li {
@@ -36,14 +39,10 @@ ul a {
 
 span {
   margin-left: .2rem;
-  /* font-size: 4rem; */
   font-weight: 900;
   color: #CD1818;
 }
 
-ul a:hover {
-  /* color: #CD1818; */
-}
 
 ul .line {
   position: absolute;
@@ -118,4 +117,9 @@ ul li:nth-child(4):hover ~ .line {
 		background-color: transparent;
 		transition: height 0.25s ease;
 	}
+}
+
+.scrolled {
+  box-shadow: 1px -10px 25px -8px #000000;
+  background: #ffffff;
 }

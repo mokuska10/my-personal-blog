@@ -6,6 +6,7 @@ import Hero from "./components/Hero";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import ReadingMotivation from "./components/my-reading-motivation";
+import PoliticsPage from "./components/pages/politics-page";
 
 const AppRouter: React.FC = () => (
         <Routes>
@@ -37,6 +38,33 @@ const AppRouter: React.FC = () => (
             />
             <Route 
                 path="/reading/:id" 
+                element={
+                    <div className="page-wrapper">
+                        <Header />
+                        <main className="page-main">
+                            <ReadingPage />
+                        </main>
+                        <Footer />
+                    </div>
+                }
+            >
+            </Route>
+            <Route 
+                path="/politica" 
+                element={
+                    <div className="page-wrapper">
+                        <Header />
+                        <main className="page-main">
+                            <ReadingMotivation />
+                            <PoliticsPage /> 
+                        </main>
+                        <Footer />
+                    </div>
+                }
+                >
+            </Route>
+            <Route 
+                path="/politica/:id" 
                 element={
                     <div className="page-wrapper">
                         <Header />

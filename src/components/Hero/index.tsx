@@ -3,9 +3,12 @@ import './style.css';
 import WriteDownImg from '../../assets/write-down.png';
 import PresentationSiteImg from '../../assets/presentation-web-site.jpg';
 
+import FloatingBtn from '../floating-home-button';
+
 export default function Hero() {
     return (
         <>
+            <FloatingBtn />
             <div className="hero-wrapper">
                 <div className="left-content-container">
                     <p>"Neque porro quisquam est qui dolorem ipsum quia 

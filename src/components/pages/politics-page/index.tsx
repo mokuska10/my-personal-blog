@@ -2,12 +2,14 @@ import './style.css';
 
 import { useNavigate } from 'react-router-dom';
 
-import { data } from '../../data/my-thoughts-data';
+import { data } from '../../data/politics-page-data';
+
 import FloatingBtn from '../../floating-home-button';
 
-export default function MyThoughtsPage() {
+export default function PoliticsPage() {
     const [firstItem, ...otherItems] = data;
     const navigate = useNavigate()
+
 
     return (
         <>
@@ -27,7 +29,7 @@ export default function MyThoughtsPage() {
                         </div>
                         <button 
                             className="btn-my-thoughts-page"
-                            onClick={() => navigate(`/reading/${firstItem.id}`)}
+                            onClick={() => navigate(`/politica/${firstItem.id}`)}
                                 >Citeste
                         </button>
                     </div>
@@ -49,7 +51,7 @@ export default function MyThoughtsPage() {
                                         </div>
                                         <button 
                                             className="btn-my-thoughts-page"
-                                            onClick={() => navigate(`/reading/${item.id}`) }
+                                            onClick={() => navigate(`/politica/${item.id}`) }
                                                 >Citeste
                                         </button>
                                     </div>
