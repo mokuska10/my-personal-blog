@@ -3,6 +3,7 @@ import { useParams, useLocation } from 'react-router-dom';
 import './style.css';
 import { data as thougtsData} from '../../data/my-thoughts-data';
 import { data as politicsData } from '../../data/politics-page-data';
+import { data as programingDAta } from '../../data/politics-page-data';
 import FloatingBtn from '../../floating-home-button';
 
 const ReadingPage: React.FC = () => {
@@ -22,6 +23,9 @@ const ReadingPage: React.FC = () => {
             break
         case "politica":
             sourceData = politicsData
+            break
+        case "programare":
+            sourceData = programingDAta
             break
         default:
             sourceData = []

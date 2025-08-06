@@ -7,6 +7,8 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import ReadingMotivation from "./components/my-reading-motivation";
 import PoliticsPage from "./components/pages/politics-page";
+import ProgramingPage from "./components/pages/programing-page";
+import AboutBooks from "./components/pages/about-books-page";
 
 const AppRouter: React.FC = () => (
         <Routes>
@@ -37,7 +39,7 @@ const AppRouter: React.FC = () => (
                 } 
             />
             <Route 
-                path="/reading/:id" 
+                path="/:section/:id" 
                 element={
                     <div className="page-wrapper">
                         <Header />
@@ -64,17 +66,32 @@ const AppRouter: React.FC = () => (
                 >
             </Route>
             <Route 
-                path="/politica/:id" 
+                path="/programare" 
                 element={
                     <div className="page-wrapper">
                         <Header />
                         <main className="page-main">
-                            <ReadingPage />
+                            <ReadingMotivation />
+                            <ProgramingPage /> 
                         </main>
                         <Footer />
                     </div>
                 }
-            >
+                >
+            </Route>
+            <Route 
+                path="/carti" 
+                element={
+                    <div className="page-wrapper">
+                        <Header />
+                        <main className="page-main">
+                            {/* <ReadingMotivation /> */}
+                            <AboutBooks /> 
+                        </main>
+                        <Footer />
+                    </div>
+                }
+                >
             </Route>
         </Routes>
 )

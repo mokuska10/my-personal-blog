@@ -27,7 +27,7 @@ export default function MyThoughtsPage() {
                         </div>
                         <button 
                             className="btn-my-thoughts-page"
-                            onClick={() => navigate(`/reading/${firstItem.id}`)}
+                            onClick={() => navigate(`/ganduri/${firstItem.id}`)}
                                 >Citeste
                         </button>
                     </div>
@@ -49,7 +49,7 @@ export default function MyThoughtsPage() {
                                         </div>
                                         <button 
                                             className="btn-my-thoughts-page"
-                                            onClick={() => navigate(`/reading/${item.id}`) }
+                                            onClick={() => navigate(`/ganduri/${item.id}`) }
                                                 >Citeste
                                         </button>
                                     </div>

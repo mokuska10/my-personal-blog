@@ -13,3 +13,17 @@
   border-radius: 1rem;
   font-size: 3rem;
 }
+
+.floating-btn:hover {
+  animation: wobble .8s ease-in;
+}
+
+@keyframes wobble {
+  0% { transform: rotate(0deg); }
+  15% { transform: rotate(5deg); }
+  30% { transform: rotate(-5deg); }
+  45% { transform: rotate(4deg); }
+  60% { transform: rotate(-4deg); }
+  75% { transform: rotate(2deg); }
+  100% { transform: rotate(0deg); }
+}
