@@ -19,7 +19,7 @@ export const data: Data[] = [
       "Nunc quis nisl semper, consectetur ex quis, euismod nisl. Sed faucibus vulputate leo sed vestibulum. Vestibulum urna justo, ornare ut ligula semper, semper vulputate felis. Aliquam et purus commodo, vulputate massa eu, rutrum mauris. Nullam vulputate, odio rhoncus tincidunt luctus, libero ipsum maximus justo, nec blandit lectus sapien at dolor. Maecenas odio eros, imperdiet dignissim eros vitae, tristique lobortis arcu. Integer at magna ac leo sodales facilisis. Mauris sit amet laoreet nunc. Ut quis nunc vel magna eleifend auctor fringilla at felis. Aliquam sed eros ac ante porta tristique. Vestibulum ex nisi, ornare ut mauris sed, viverra vehicula arcu. Ut orci erat, viverra eget pulvinar consequat, egestas ut ante. Suspendisse id tellus tempus, sagittis lacus a, tincidunt est. Vivamus non pharetra magna, nec elementum elit. Sed sagittis odio vel mi lobortis, et elementum eros malesuada. Fusce nibh erat, molestie ut nunc id, rhoncus dictum lorem."      
     ],
     readingTime: '2 minute de citit',
-    date: '15 Mai 2025'
+    date: '15-05-2025'
   },
   {
     id: 1,
@@ -31,7 +31,7 @@ export const data: Data[] = [
       "Etiam posuere, nisi sagittis dictum elementum, dui lectus dapibus diam, at interdum risus lorem sit amet sem. Pellentesque eros nisl, tempus eu congue a, convallis ut augue. Ut ut auctor sapien. Vestibulum aliquam laoreet dolor non lacinia. Maecenas ut turpis vel elit convallis ultrices. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed auctor sodales iaculis. Fusce et lacinia odio. Morbi bibendum, lorem quis faucibus malesuada, justo est molestie orci, a euismod risus ex vitae dolor. Integer consequat convallis vulputate. Nunc est ligula, consequat at facilisis id, venenatis eget ante. Maecenas sed nisl ut eros hendrerit mattis. Aenean aliquam sapien sem, tempor aliquam magna maximus id. Nam sollicitudin laoreet tempor. Integer elit dui, gravida in enim non, volutpat ultrices odio."      
     ],
     readingTime: '2 minute de citit',
-    date: '16 Mai 2025'
+    date: '15-05-2025'
   },
   {
     id: 2,
@@ -43,7 +43,7 @@ export const data: Data[] = [
       "Etiam posuere, nisi sagittis dictum elementum, dui lectus dapibus diam, at interdum risus lorem sit amet sem. Pellentesque eros nisl, tempus eu congue a, convallis ut augue. Ut ut auctor sapien. Vestibulum aliquam laoreet dolor non lacinia. Maecenas ut turpis vel elit convallis ultrices. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed auctor sodales iaculis. Fusce et lacinia odio. Morbi bibendum, lorem quis faucibus malesuada, justo est molestie orci, a euismod risus ex vitae dolor. Integer consequat convallis vulputate. Nunc est ligula, consequat at facilisis id, venenatis eget ante. Maecenas sed nisl ut eros hendrerit mattis. Aenean aliquam sapien sem, tempor aliquam magna maximus id. Nam sollicitudin laoreet tempor. Integer elit dui, gravida in enim non, volutpat ultrices odio."      
     ],
     readingTime: '2 minute de citit',
-    date: '16 Mai 2025'
+    date: '15-05-2025'
   },
   {
     id: 3,
@@ -55,7 +55,7 @@ export const data: Data[] = [
       "Etiam posuere, nisi sagittis dictum elementum, dui lectus dapibus diam, at interdum risus lorem sit amet sem. Pellentesque eros nisl, tempus eu congue a, convallis ut augue. Ut ut auctor sapien. Vestibulum aliquam laoreet dolor non lacinia. Maecenas ut turpis vel elit convallis ultrices. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed auctor sodales iaculis. Fusce et lacinia odio. Morbi bibendum, lorem quis faucibus malesuada, justo est molestie orci, a euismod risus ex vitae dolor. Integer consequat convallis vulputate. Nunc est ligula, consequat at facilisis id, venenatis eget ante. Maecenas sed nisl ut eros hendrerit mattis. Aenean aliquam sapien sem, tempor aliquam magna maximus id. Nam sollicitudin laoreet tempor. Integer elit dui, gravida in enim non, volutpat ultrices odio."      
     ],
     readingTime: '2 minute de citit',
-    date: '16 Mai 2025'
+    date: '15-05-2025'
   },
   {
     id: 4,
@@ -67,6 +67,6 @@ export const data: Data[] = [
       "Etiam posuere, nisi sagittis dictum elementum, dui lectus dapibus diam, at interdum risus lorem sit amet sem. Pellentesque eros nisl, tempus eu congue a, convallis ut augue. Ut ut auctor sapien. Vestibulum aliquam laoreet dolor non lacinia. Maecenas ut turpis vel elit convallis ultrices. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed auctor sodales iaculis. Fusce et lacinia odio. Morbi bibendum, lorem quis faucibus malesuada, justo est molestie orci, a euismod risus ex vitae dolor. Integer consequat convallis vulputate. Nunc est ligula, consequat at facilisis id, venenatis eget ante. Maecenas sed nisl ut eros hendrerit mattis. Aenean aliquam sapien sem, tempor aliquam magna maximus id. Nam sollicitudin laoreet tempor. Integer elit dui, gravida in enim non, volutpat ultrices odio."      
     ],
     readingTime: '2 minute de citit',
-    date: '16 Mai 2025'
+    date: '15-05-2025'
   }
 ]

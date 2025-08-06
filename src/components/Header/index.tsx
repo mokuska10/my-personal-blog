@@ -39,7 +39,7 @@ export default function Header() {
                         <Link to="/programare">despre Programare<span>.</span></Link>
                     </li>
                     <li>
-                        <Link to="#">despre Carti<span>.</span></Link>
+                        <Link to="/carti">despre Carti<span>.</span></Link>
                     </li>
                     <span className="line"></span>
                 </ul>

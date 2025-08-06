@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import ReadingMotivation from "./components/my-reading-motivation";
 import PoliticsPage from "./components/pages/politics-page";
 import ProgramingPage from "./components/pages/programing-page";
+import AboutBooks from "./components/pages/about-books-page";
 
 const AppRouter: React.FC = () => (
         <Routes>
@@ -72,6 +73,20 @@ const AppRouter: React.FC = () => (
                         <main className="page-main">
                             <ReadingMotivation />
                             <ProgramingPage /> 
+                        </main>
+                        <Footer />
+                    </div>
+                }
+                >
+            </Route>
+            <Route 
+                path="/carti" 
+                element={
+                    <div className="page-wrapper">
+                        <Header />
+                        <main className="page-main">
+                            {/* <ReadingMotivation /> */}
+                            <AboutBooks /> 
                         </main>
                         <Footer />
                     </div>
